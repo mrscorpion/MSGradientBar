@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6D3ECAF1D61EADC00536B17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D3ECAE1D61EADC00536B17 /* AppDelegate.swift */; };
+		A6D3ECB11D61EADC00536B17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D3ECB01D61EADC00536B17 /* ViewController.swift */; };
+		A6D3ECB41D61EADC00536B17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6D3ECB21D61EADC00536B17 /* Main.storyboard */; };
+		A6D3ECB61D61EADC00536B17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6D3ECB51D61EADC00536B17 /* Assets.xcassets */; };
+		A6D3ECB91D61EADC00536B17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6D3ECB71D61EADC00536B17 /* LaunchScreen.storyboard */; };
+		A6D3ECC41D61EADC00536B17 /* MSGradientDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D3ECC31D61EADC00536B17 /* MSGradientDemoTests.swift */; };
+		A6D3ECCF1D61EB9200536B17 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D3ECCE1D61EB9200536B17 /* GradientView.swift */; };
+		A6D3ECD11D61F29000536B17 /* RhythmBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D3ECD01D61F29000536B17 /* RhythmBar.swift */; };
+		A6D3ECD31D61F42700536B17 /* RtythmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D3ECD21D61F42700536B17 /* RtythmViewController.swift */; };
+		A6D3ECD51D61FB7900536B17 /* ReverseRhythmBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D3ECD41D61FB7900536B17 /* ReverseRhythmBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6D3ECC01D61EADC00536B17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6D3ECA31D61EADB00536B17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6D3ECAA1D61EADB00536B17;
+			remoteInfo = MSGradientDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6D3ECAB1D61EADC00536B17 /* MSGradientDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSGradientDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D3ECAE1D61EADC00536B17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6D3ECB01D61EADC00536B17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6D3ECB31D61EADC00536B17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6D3ECB51D61EADC00536B17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6D3ECB81D61EADC00536B17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6D3ECBA1D61EADC00536B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6D3ECBF1D61EADC00536B17 /* MSGradientDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSGradientDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D3ECC31D61EADC00536B17 /* MSGradientDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSGradientDemoTests.swift; sourceTree = "<group>"; };
+		A6D3ECC51D61EADC00536B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6D3ECCE1D61EB9200536B17 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		A6D3ECD01D61F29000536B17 /* RhythmBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RhythmBar.swift; sourceTree = "<group>"; };
+		A6D3ECD21D61F42700536B17 /* RtythmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RtythmViewController.swift; sourceTree = "<group>"; };
+		A6D3ECD41D61FB7900536B17 /* ReverseRhythmBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseRhythmBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6D3ECA81D61EADB00536B17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D3ECBC1D61EADC00536B17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6D3ECA21D61EADB00536B17 = {
+			isa = PBXGroup;
+			children = (
+				A6D3ECAD1D61EADC00536B17 /* MSGradientDemo */,
+				A6D3ECC21D61EADC00536B17 /* MSGradientDemoTests */,
+				A6D3ECAC1D61EADC00536B17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6D3ECAC1D61EADC00536B17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6D3ECAB1D61EADC00536B17 /* MSGradientDemo.app */,
+				A6D3ECBF1D61EADC00536B17 /* MSGradientDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6D3ECAD1D61EADC00536B17 /* MSGradientDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A6D3ECAE1D61EADC00536B17 /* AppDelegate.swift */,
+				A6D3ECB01D61EADC00536B17 /* ViewController.swift */,
+				A6D3ECCE1D61EB9200536B17 /* GradientView.swift */,
+				A6D3ECB21D61EADC00536B17 /* Main.storyboard */,
+				A6D3ECB51D61EADC00536B17 /* Assets.xcassets */,
+				A6D3ECB71D61EADC00536B17 /* LaunchScreen.storyboard */,
+				A6D3ECBA1D61EADC00536B17 /* Info.plist */,
+				A6D3ECD21D61F42700536B17 /* RtythmViewController.swift */,
+				A6D3ECD01D61F29000536B17 /* RhythmBar.swift */,
+				A6D3ECD41D61FB7900536B17 /* ReverseRhythmBar.swift */,
+			);
+			path = MSGradientDemo;
+			sourceTree = "<group>";
+		};
+		A6D3ECC21D61EADC00536B17 /* MSGradientDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6D3ECC31D61EADC00536B17 /* MSGradientDemoTests.swift */,
+				A6D3ECC51D61EADC00536B17 /* Info.plist */,
+			);
+			path = MSGradientDemoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6D3ECAA1D61EADB00536B17 /* MSGradientDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6D3ECC81D61EADC00536B17 /* Build configuration list for PBXNativeTarget "MSGradientDemo" */;
+			buildPhases = (
+				A6D3ECA71D61EADB00536B17 /* Sources */,
+				A6D3ECA81D61EADB00536B17 /* Frameworks */,
+				A6D3ECA91D61EADB00536B17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSGradientDemo;
+			productName = MSGradientDemo;
+			productReference = A6D3ECAB1D61EADC00536B17 /* MSGradientDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6D3ECBE1D61EADC00536B17 /* MSGradientDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6D3ECCB1D61EADC00536B17 /* Build configuration list for PBXNativeTarget "MSGradientDemoTests" */;
+			buildPhases = (
+				A6D3ECBB1D61EADC00536B17 /* Sources */,
+				A6D3ECBC1D61EADC00536B17 /* Frameworks */,
+				A6D3ECBD1D61EADC00536B17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6D3ECC11D61EADC00536B17 /* PBXTargetDependency */,
+			);
+			name = MSGradientDemoTests;
+			productName = MSGradientDemoTests;
+			productReference = A6D3ECBF1D61EADC00536B17 /* MSGradientDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6D3ECA31D61EADB00536B17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mr.scorpion;
+				TargetAttributes = {
+					A6D3ECAA1D61EADB00536B17 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = GXHE3742MX;
+					};
+					A6D3ECBE1D61EADC00536B17 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = GXHE3742MX;
+						TestTargetID = A6D3ECAA1D61EADB00536B17;
+					};
+				};
+			};
+			buildConfigurationList = A6D3ECA61D61EADB00536B17 /* Build configuration list for PBXProject "MSGradientDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6D3ECA21D61EADB00536B17;
+			productRefGroup = A6D3ECAC1D61EADC00536B17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6D3ECAA1D61EADB00536B17 /* MSGradientDemo */,
+				A6D3ECBE1D61EADC00536B17 /* MSGradientDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6D3ECA91D61EADB00536B17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D3ECB91D61EADC00536B17 /* LaunchScreen.storyboard in Resources */,
+				A6D3ECB61D61EADC00536B17 /* Assets.xcassets in Resources */,
+				A6D3ECB41D61EADC00536B17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D3ECBD1D61EADC00536B17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6D3ECA71D61EADB00536B17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D3ECB11D61EADC00536B17 /* ViewController.swift in Sources */,
+				A6D3ECAF1D61EADC00536B17 /* AppDelegate.swift in Sources */,
+				A6D3ECCF1D61EB9200536B17 /* GradientView.swift in Sources */,
+				A6D3ECD31D61F42700536B17 /* RtythmViewController.swift in Sources */,
+				A6D3ECD51D61FB7900536B17 /* ReverseRhythmBar.swift in Sources */,
+				A6D3ECD11D61F29000536B17 /* RhythmBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D3ECBB1D61EADC00536B17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D3ECC41D61EADC00536B17 /* MSGradientDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6D3ECC11D61EADC00536B17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6D3ECAA1D61EADB00536B17 /* MSGradientDemo */;
+			targetProxy = A6D3ECC01D61EADC00536B17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6D3ECB21D61EADC00536B17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6D3ECB31D61EADC00536B17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6D3ECB71D61EADC00536B17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6D3ECB81D61EADC00536B17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6D3ECC61D61EADC00536B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6D3ECC71D61EADC00536B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6D3ECC91D61EADC00536B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MSGradientDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mr.scorpion.MSGradientDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6D3ECCA1D61EADC00536B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MSGradientDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mr.scorpion.MSGradientDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A6D3ECCC1D61EADC00536B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MSGradientDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mr.scorpion.MSGradientDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSGradientDemo.app/MSGradientDemo";
+			};
+			name = Debug;
+		};
+		A6D3ECCD1D61EADC00536B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MSGradientDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mr.scorpion.MSGradientDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSGradientDemo.app/MSGradientDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6D3ECA61D61EADB00536B17 /* Build configuration list for PBXProject "MSGradientDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D3ECC61D61EADC00536B17 /* Debug */,
+				A6D3ECC71D61EADC00536B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6D3ECC81D61EADC00536B17 /* Build configuration list for PBXNativeTarget "MSGradientDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D3ECC91D61EADC00536B17 /* Debug */,
+				A6D3ECCA1D61EADC00536B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A6D3ECCB1D61EADC00536B17 /* Build configuration list for PBXNativeTarget "MSGradientDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D3ECCC1D61EADC00536B17 /* Debug */,
+				A6D3ECCD1D61EADC00536B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6D3ECA31D61EADB00536B17 /* Project object */;
+}
